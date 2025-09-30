@@ -164,12 +164,15 @@ span {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start; /* aligns content to top */
   height: 750px;
   overflow: hidden;
-  object-fit: cover;
+  background-image: url("hero.jpg");
   background-size: cover;
+  background-position: top center; /* show top part of the image */
+  background-repeat: no-repeat;
 }
+
 a .hero-carousel {
   position: relative;
   width: 100%;
